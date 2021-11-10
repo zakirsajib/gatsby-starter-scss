@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "ftp-deploy": "^2.4.1",
+    "gatsby": "^4.1.2",
+    "gatsby-cli": "^4.1.1",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^4.1.1",
+    "gatsby-plugin-offline": "^5.1.1",
+    "gatsby-plugin-react-helmet": "^5.1.0",
+    "gatsby-plugin-sass": "^5.1.1",
+    "gatsby-plugin-sharp": "^4.1.1",
+    "gatsby-plugin-sitemap": "^5.1.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "node-sass": "^6.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.43.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gatsby build && node deploy",
+    "start": "npm run develop",
+    "build": "gatsby build --output-dir",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "clean": "rimraf .cache public node_modules",
+    "restart": "kill-port --port 8000 && npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakirsajib/Simple-Website-PageSpeed"
+  },
+  "bugs": {
+    "url": "https://github.com/zakirsajib/Simple-Website-PageSpeed/issues"
+  }
+}
