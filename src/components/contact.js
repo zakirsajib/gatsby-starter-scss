@@ -6,14 +6,9 @@ class Form extends Component {
     return (
         <div>
         <form
-            name="contact"
-            method="POST"
-            data-netlify-honeypot="bot-field"
-            data-netlify="true"
+            method="post"
+            action="https://getform.io/f/9188d10d-7afb-47e7-bebe-442d7f896126"
         >
-        {/* Netlify hidden field */}
-        <input name="form-name" type="hidden" value="contact"/>
-        <p hidden><label>Don’t fill this out: <input name="bot-field"/></label></p>
         {/* Name field */}
         <div className="field">
 

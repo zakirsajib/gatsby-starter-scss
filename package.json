@@ -43,7 +43,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "clean": "rimraf .cache public node_modules",
+    "clean": "rimraf .cache public",
     "restart": "kill-port --port 8000 && npm run clean && GATSBY_CONCURRENT_DOWNLOAD=8 gatsby develop"
   },
   "repository": {
